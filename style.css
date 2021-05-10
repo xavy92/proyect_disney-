@@ -1,0 +1,88 @@
+body{
+   background: blue;
+    margin: 0;
+    /* height: 500px; */
+    background: url('/proyect_disney-/img/background.png');
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+
+}
+
+img{
+   
+    height: 50px;
+
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    right: 0;
+    top:10px;
+    color: white;
+    font-size: .5rem;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+  color: white;  
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.img_principal{
+    margin-top: 12%;
+    height: 100px;
+}
+
+.dis{
+height: 100px;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+}
+
+.btn button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(36, 159, 241);
+    color: white;
+    border: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    font-size: 0.4rem;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    /* margin: 0 15px; */
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+footer .text{
+    margin: 10px 15px;
+}
+
+
